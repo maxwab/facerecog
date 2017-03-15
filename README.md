@@ -1,0 +1,2 @@
+# facerecog
+Face recognition class
