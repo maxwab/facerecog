@@ -4,6 +4,7 @@ Ceci est le carnet de bord où nous pouvons ajouter ce que nous avons fait lors 
 
 # Mercredi 15-03 
 
+<<<<<<< refs/remotes/origin/master
 * Ludovic : Ajout de travaux existants (implémentations en Matlab) 
 * Maxime : Création du Github + invitation des différentes personnes
 * Fin de la lecture et compréhension de l'article
@@ -17,3 +18,11 @@ Ceci est le carnet de bord où nous pouvons ajouter ce que nous avons fait lors 
 
 * Tout le monde : téléchargement de la database
 * Maxime : Début d'implémentation
+=======
+* Ludovic : Ajout de travaux existants (Matlab)
+* Maxime : Création du Github + invitation des différentes personnes
+
+# Samedi 18-03
+
+* Maxime : Ajout des liens pour télécharger les images
+>>>>>>> Update RM, ajout carnet de bord, début implém

@@ -1,2 +1,6 @@
 
 data/
+
+util_facerecog\.pyc
+
+*.py
