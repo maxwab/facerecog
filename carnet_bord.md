@@ -17,12 +17,11 @@ Ceci est le carnet de bord où nous pouvons ajouter ce que nous avons fait lors 
 # Lundi 20-03 
 
 * Tout le monde : téléchargement de la database
-* Maxime : Début d'implémentation
-=======
-* Ludovic : Ajout de travaux existants (Matlab)
-* Maxime : Création du Github + invitation des différentes personnes
+* Maxime : Travail sur la mise en forme des données.
 
-# Samedi 18-03
+# Mardi 21-03
 
-* Maxime : Ajout des liens pour télécharger les images
->>>>>>> Update RM, ajout carnet de bord, début implém
+* Eloi : définition des fonctions de l'article pour réjection, travail sur l'algorithme d'optimisation de l'équation (12)
+* Maxime : Fin de la manipulation des données (mise en place train / test set), travail sur l'algorithme d'optimisation de l'équation (12)
+* Ludovic : Mise en place de différentes fonctions de réduction de dimension, implémentation d'une fonction 
+* Titouan : Mise en place d'une fonction de bruitage pour regénérer des nouveaux dataset.
