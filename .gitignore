@@ -3,8 +3,6 @@ data/
 
 util_facerecog\.pyc
 
-*.py
-
 \.Rhistory
 
 \.ipynb_checkpoints/
