@@ -46,8 +46,8 @@ John Wright et al, "Robust Face Recognition via Sparse Representation", PAMI 200
 ## Todo
 
 * Améliorer l'optimisayion du problème : 
- * on fait du PBDN, faut-il faire du PB tout court (méthode incrémentale) ?
- * Trouver le meilleur lambda (alpha dans le code). Métrique : SCI ? cf article
-* Implémenter la méthode PCA + SVM et observer les résultats
-* Commencer la présentation
+  * on fait du PBDN, faut-il faire du PB tout court (méthode incrémentale) ?
+  * Trouver le meilleur lambda (alpha dans le code). Métrique : SCI ? cf article
+* Faire l'étude avec différentes méthodes de réduction de dimension + différentes méthodes d'occlusion. Comparer les résultats.
+* Implémenter la méthode PCA + SVM et observer les résultats => Les comparer avec nos résultats classiques
 * S'inspirer des notebooks envoyés par Chainais pour les représentations de nos résultats (Inverse problems)
