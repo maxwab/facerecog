@@ -3,6 +3,9 @@ data/
 
 util_facerecog\.pyc
 
+<<<<<<< HEAD
 \.Rhistory
 
 \.ipynb_checkpoints/
+=======
+>>>>>>> Ludo-features
