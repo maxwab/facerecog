@@ -1,0 +1,14 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Document presentation}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Article's origins}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Contributions}{5}{0}{1}
+\beamer@sectionintoc {2}{Face recognition via Sparse representation}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Face recognition}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Sparse representation}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Mathematical related problem}{9}{0}{2}
+\beamer@sectionintoc {3}{Classification via Sparse representation}{15}{0}{3}
+\beamer@subsectionintoc {3}{1}{Initial problem}{16}{0}{3}
+\beamer@subsectionintoc {3}{2}{Extended problem with noise}{18}{0}{3}
+\beamer@subsectionintoc {3}{3}{Extended problem with feature extraction}{19}{0}{3}
+\beamer@subsectionintoc {3}{4}{Extended problem with occlusion}{20}{0}{3}
+\beamer@sectionintoc {4}{Implementation}{21}{0}{4}
