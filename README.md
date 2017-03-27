@@ -9,6 +9,7 @@ In this work we basically did :
 * Implement in Python one version the John Wright's paper : 
 	* Relaxed version of the classification algorithm using sparse representation (algorithm 1 with tolerance p.214 of the paper)
 	* We applied the algorithm in the following situations : basic images, noisy images (with gaussian noise), and occlusion
+	* We also applied the algorithm for with feature reduction on the images (fisherfaces,randomfaces and eigenfaces)
 * Implement PCA + SVM algorithm in order to compare the results in the same situations.
 * Try CNN on the same database
 
