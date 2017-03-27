@@ -66,9 +66,9 @@ def fisherfaces(X_train,y_train,X_test,n_components=120):
     return X_train_fisher,X_test_fisher
     
     
-def randomfaces(X_train,X_test):
+def randomfaces(X_train,X_test, n_components=120):
     t0 = time()
-    randomface = GaussianRandomProjection(n_components=120) #Gaussian projection
+    randomface = GaussianRandomProjection(n_components=n_components) #Gaussian projection
     randomface.fit(X_train)
     X_train_random = randomface.transform(X_train)
     X_test_random = randomface.transform(X_test)
@@ -80,7 +80,7 @@ def randomfaces(X_train,X_test):
 TO TEST MY FUNCTIONS
 '''
 path = '/home/ldarmet/Face recognition/CroppedYale'
-def read_images(path, sz=(168,192)): 
+def read_images_ludo(path, sz=(168,192)): 
     t0 = time()
     c=0
     y = []
