@@ -1,6 +1,6 @@
 # Carnet de bord
 
-Ceci est le carnet de bord où nous pouvons ajouter ce que nous avons fait lors de ce projet.
+Ceci est le carnet de bord où nous pouvons ajouter ce que nous avons fait lors de ce projet. L'historique de toute les modifications est aussi présent sur le git
 
 # Mercredi 15-03 
 
@@ -25,3 +25,9 @@ Ceci est le carnet de bord où nous pouvons ajouter ce que nous avons fait lors 
 * Maxime : Fin de la manipulation des données (mise en place train / test set), travail sur l'algorithme d'optimisation de l'équation (12)
 * Ludovic : Mise en place de différentes fonctions de réduction de dimension, implémentation d'une fonction 
 * Titouan : Mise en place d'une fonction de bruitage pour regénérer des nouveaux dataset.
+
+# Depuis
+* Eloi : Réalisation d'une fonction d'occlusion, étude sur les différents paramètres d'occlusion (travail de la fenêtre, position de la fenêtre)
+* Maxime : Clean le git, regarder les performances des algorithme sur le test en analysant la précision, retraitement du fichier, création d'une fonction globale permettant de faire des tests successif, normalisation et intégration des fonction de feature reduction
+* Ludovic : Implémentation PCA + SVM et travaux CNN non aboutis. Etude de l'influence du bruit et de l'occlusion
+* Titouan : mise en place de la présentation, intégration des différents codes pour la démonstration des algorithmes (sparse_representation_implementation)

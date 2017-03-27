@@ -30,10 +30,11 @@ In this work we basically did :
 
 ## Notebooks & Docs
 
-Main notebook :
+Main notebook & python :
 
 * sparse_representation_implementation : The goal of this notebook is to show the classification of ONE image using sparse representation in all the situations described above. The user of the notebook can select the image to classify and the situation state (occlusion,noise strength etc...)
 * performance_yale : The goal of this notebook is to show the performance of sparse representation on ALL the database
+* algorithme1 : Condesed version of sparse_representation_implementation notebook, which let's us compute the prediction, the residuals and SCI for each element of the test set and for each situation ( parameters are occlusion,noise, feature reduction technique). Uses multiprocessing to speed up computation.
 * Face_PCA_SVM : The goal of this notebook is to show an implementation of PCA + SVM yale database for occluded image.
 * fetures_reduction : implement eigenfaces,fisherfaces and randomfaces for features reduction
 
@@ -41,13 +42,11 @@ Main notebook :
 Others :
 
 * FaceRecogTool : is a matlab implementation of the paper with the database of the article
-* csv_saved : 
 * impFaceRecognition-master :is a matlab implementation of the paper all the .m files.
 * presentation : the repository for presentation files
 * Add_Noise : notebook where we implement the functions dedicated to noise the image
 * Add_Noise_py2 : same notebook but for a python 2 implementation (problem with class build in python 3 used for python 2)
 * VGG16Face : CNN work on the database
-* implementation_basique_yale : the python implementation of the paper
 
 
 # arborescence
