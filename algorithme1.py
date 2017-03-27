@@ -17,6 +17,18 @@ from features_reduction import *
 import time
 import random
 from features_reduction import *
+import multiprocessing
+from multiprocessing import Pool
+import functools
+
+def evaluate_coeff(y,Xtrain,ytrain, clf):
+    clf.fit(Xtrain,y)
+    x = clf.coef_
+    # On fait la prédiction
+    a = residu(y,Xtrain,x,ytrain)
+    b = np.argmin(residu(y,Xtrain,x,ytrain))
+    c = SCI(x,ytrain)
+    return [a,b,c]
 
 def delta(x,i,classs):
     '''
@@ -236,16 +248,30 @@ def SRC(Xtrain, Xtest, ytrain, type_feature_reduc=None, reduce_lines=12, reduce_
     # on crée un classifieur Lasso avec le lambda spécifié en paramètre
     clf = Lasso(alpha=lambda_val) 
     
-    # Pour chaque exemple à tester on génère les coefficients et on prend la meilleure prédiction
-    for j in range(Xtest.shape[1]):
-        y = Xtest[:,j] # Exemple courant à tester
-        clf.fit(Xtrain,y)
-        x = clf.coef_
+    L_y = []
 
-        # On fait la prédiction
-        residus[:,j] = residu(y,Xtrain,x,ytrain)
-        preds[j] = np.argmin(residu(y,Xtrain,x,ytrain)) 
-        rejections[j] = SCI(x,ytrain)
+    for j in range(Xtest.shape[1]):
+        L_y.append(Xtest[:,j]) # Exemple courant à tester
+    
+    nbCores = multiprocessing.cpu_count()
+    pool = Pool(nbCores)
+    L = pool.map(functools.partial(evaluate_coeff,Xtrain=Xtrain, ytrain=ytrain,clf=clf), L_y)
+    pool.close()
+    pool.join()
+
+      
+    
+    
+    # Pour chaque exemple à tester on génère les coefficients et on prend la meilleure prédiction
+#    for j in range(Xtest.shape[1]):
+#        y = Xtest[:,j] # Exemple courant à tester
+#        clf.fit(Xtrain,y)
+#        x = clf.coef_
+#
+#        # On fait la prédiction
+#        residus[:,j] = residu(y,Xtrain,x,ytrain)
+#        preds[j] = np.argmin(residu(y,Xtrain,x,ytrain)) 
+#        rejections[j] = SCI(x,ytrain)
     
     
     # ---- On renvoie les valeurs ci-dessus
@@ -253,4 +279,5 @@ def SRC(Xtrain, Xtest, ytrain, type_feature_reduc=None, reduce_lines=12, reduce_
     # predictions : vecteur des prédictions pour chaque exemple du test set
     # sci : vecteur des SCI pour chaque élément du test set
     # residus : matrice des résidus : m lignes (nombre de classes), n colonnes (nombre d'éléments du test set)
-    return preds, rejections, residus
+    return L
+    #return preds, rejections, residus
