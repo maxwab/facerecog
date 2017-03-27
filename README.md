@@ -22,7 +22,11 @@ In this work we basically did :
 * AR Face Database
  * 126 people (over 4,000 color images).
  * http://www2.ece.ohio-state.edu/~aleix/ARdatabase.html (Note : download les 10 CD)
-* A quelle heure on se fait un database de nous pour l'application ? Différentes luminosités / faces.
+
+ ## Download data to run notebook :
+
+* Download the cropped database with the following adress in a /data/CroppedYale folder http://vision.ucsd.edu/~leekc/ExtYaleDatabase/download.html
+* Please pay attention to execute 'find . -type f -name '*_Ambient.pgm' -delete' is the directory /data before you run any notebook (to clear some bad examples in the image)
 
 ## Notebooks & Docs
 
