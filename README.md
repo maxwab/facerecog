@@ -51,3 +51,11 @@ John Wright et al, "Robust Face Recognition via Sparse Representation", PAMI 200
 * Faire l'étude avec différentes méthodes de réduction de dimension + différentes méthodes d'occlusion. Comparer les résultats.
 * Implémenter la méthode PCA + SVM et observer les résultats => Les comparer avec nos résultats classiques
 * S'inspirer des notebooks envoyés par Chainais pour les représentations de nos résultats (Inverse problems)
+
+
+* Comparaison de l'algorithme SRC en fonction des différentes dimensions. Faire de même pour SVM
+* Comparaison de SRC et SVM pour différents niveaux de bruitage
+* Oocclusion avec un carré noir + Visualisation de l'erreur (résidu ?)
+* Outlier rejection
+* Partition de l'image
+* Normaliser
