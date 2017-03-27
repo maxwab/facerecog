@@ -31,3 +31,7 @@ Ceci est le carnet de bord où nous pouvons ajouter ce que nous avons fait lors 
 * Maxime : Clean le git, regarder les performances des algorithme sur le test en analysant la précision, retraitement du fichier, création d'une fonction globale permettant de faire des tests successif, normalisation et intégration des fonction de feature reduction
 * Ludovic : Implémentation PCA + SVM et travaux CNN non aboutis. Etude de l'influence du bruit et de l'occlusion
 * Titouan : mise en place de la présentation, intégration des différents codes pour la démonstration des algorithmes (sparse_representation_implementation)
+
+![Alt text](history_1.png?raw=true "Title")
+![Alt text](history_2.png?raw=true "Title")
+![Alt text](history_3.png?raw=true "Title")
