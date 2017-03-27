@@ -37,7 +37,7 @@ def delta(x,i,classs):
     n,m = len(x),len(classs)
     
     if (n != m):
-        print 'vectors of differents sizes, cannot operate delta'
+        print ('vectors of differents sizes, cannot operate delta')
         
     tmp = i*np.ones(n)-classs
 
@@ -99,7 +99,6 @@ def noise_image(image_input, per=0.5):
     
     # Création du masque
     nb_pix_to_noise = int(np.floor(per*sz0*sz1))
-    print nb_pix_to_noise
     
     mask = np.ones((sz0*sz1,1))
     ids = np.random.permutation(sz0*sz1)[0:nb_pix_to_noise]
@@ -119,7 +118,7 @@ def black_frame(array_orig, x0, x1, y0, y1):
     array_tmp = np.ones_like(array_orig)
     
     if ((x0 > array_tmp.shape[1]) | (x1 > array_tmp.shape[1]) | (y0 > array_tmp.shape[0]) | (y1 > array_tmp.shape[0])):
-        print "Error : coordonnees du bandeau trop grandes pour l'image"
+        print ("Error : coordonnees du bandeau trop grandes pour l'image")
     
     for i in range(array_tmp.shape[1]):
         for j in range(array_tmp.shape[0]):
