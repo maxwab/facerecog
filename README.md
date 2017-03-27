@@ -3,7 +3,18 @@ A Python implementation of Face Recognition using Sparse Representation from the
 
 John Wright et al, "Robust Face Recognition via Sparse Representation", PAMI 2009.
 
-## Datasets utilisés
+## What did we do ?
+
+In this work we basically did :
+* Implement in Python one version the John Wright's paper : 
+	* Relaxed version of the classification algorithm using sparse representation (algorithm 1 with tolerance p.214 of the paper)
+	* We applied the algorithm in the following situations : basic images, noisy images (with gaussian noise), and occlusion
+	* We also applied the algorithm for with feature reduction on the images (fisherfaces,randomfaces and eigenfaces)
+* Implement PCA + SVM algorithm in order to compare the results in the same situations.
+* Try CNN on the same database
+
+
+## Datasets used
 
 * Extended Yale B Database
  * 16128 images of 28 human subjects under 9 poses and 64 illumination conditions.
@@ -12,6 +23,20 @@ John Wright et al, "Robust Face Recognition via Sparse Representation", PAMI 200
  * 126 people (over 4,000 color images).
  * http://www2.ece.ohio-state.edu/~aleix/ARdatabase.html (Note : download les 10 CD)
 * A quelle heure on se fait un database de nous pour l'application ? Différentes luminosités / faces.
+
+## Notebooks & Docs
+
+* FaceRecogTool : is a matlab implementation of the paper with the database of the article
+* csv_saved 
+* impFaceRecognition-master :is a matlab implementation of the paper all the .m files.
+* presentation : the repository for presentation files
+* Add_Noise : notebook where we implement the functions dedicated to noise the image
+* Add_Noise_py2 : same notebook but for a python 2 implementation (problem with class build in python 3 used for python 2)
+* Face_PCA_SVM : Implementation of PCA + SVM on occluded image
+* VGG16Face : CNN work on the database
+* fetures_reduction : implement eigenfaces,fisherfaces and randomfaces for features reduction
+* implementation_basique_yale : the python implementation of the paper
+
 
 # arborescence
 
