@@ -10,13 +10,11 @@ import numpy as np
 from PIL import Image
 import os, sys
 import matplotlib.pyplot as plt
-from sklearn.preprocessing import normalize
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import Lasso
 from features_reduction import *
 import time
 import random
-from features_reduction import *
 import multiprocessing
 from multiprocessing import Pool
 import functools
@@ -26,7 +24,7 @@ def evaluate_coeff(y,Xtrain,ytrain, clf):
     x = clf.coef_
     # On fait la prédiction
     a = residu(y,Xtrain,x,ytrain)
-    b = np.argmin(residu(y,Xtrain,x,ytrain))
+    b = np.argmin(a)
     c = SCI(x,ytrain)
     return [a,b,c]
 
@@ -99,7 +97,6 @@ def noise_image(image_input, per=0.5):
     
     # Création du masque
     nb_pix_to_noise = int(np.floor(per*sz0*sz1))
-    print nb_pix_to_noise
     
     mask = np.ones((sz0*sz1,1))
     ids = np.random.permutation(sz0*sz1)[0:nb_pix_to_noise]
@@ -183,6 +180,7 @@ def SRC(Xtrain, Xtest, ytrain, type_feature_reduc=None, reduce_lines=12, reduce_
     
     Xtrain = matrix_transform(Xtrain)
     Xtest = matrix_transform(Xtest)
+    
                  
     # ---- Normalisation
     
@@ -190,6 +188,7 @@ def SRC(Xtrain, Xtest, ytrain, type_feature_reduc=None, reduce_lines=12, reduce_
     # Note : on normalise les deux séparéments car on est juste en train de ramener chaque photo à une longueur unité suivant la norme 2
     Xtrain = ss.fit_transform(Xtrain)
     Xtest = ss.fit_transform(Xtest)
+
         
     # ---- Ensuite on fait une réduction de dimension pour les deux
     
