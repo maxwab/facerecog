@@ -99,9 +99,9 @@ def read_images_ludo(path, sz=(168,192)):
                     #X.append(np.asarray(im, dtype=np.uint8).ravel())    
                     y.append(c)
                 except IOError:
-                    print ("I/O error({0}): {1}".format("errno", "strerror"))
+                    print "I/O error({0}): {1}".format("errno", "strerror")
                 except:
-                    print ("Unexpected error:", sys.exc_info()[0] )
+                    print "Unexpected error:", sys.exc_info()[0] 
                     raise
             c = c+1
         
