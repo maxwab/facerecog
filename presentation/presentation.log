@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.6)  28 MAR 2017 09:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.6)  28 MAR 2017 09:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1132,18 +1132,18 @@ Overfull \vbox (2.98627pt too high) detected at line 381
 
 [18
 
-] <SCI.png, id=803, 556.0775pt x 390.45876pt>
+] <SCI.png, id=803, 542.025pt x 387.4475pt>
 File: SCI.png Graphic file (type png)
  <use SCI.png>
 Package pdftex.def Info: SCI.png used on input line 395.
-(pdftex.def)             Requested size: 278.03807pt x 195.2289pt.
+(pdftex.def)             Requested size: 271.01183pt x 193.72327pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.395 \end{frame}
                  
-Overfull \vbox (40.59743pt too high) detected at line 395
+Overfull \vbox (39.0918pt too high) detected at line 395
  []
 
 [19
@@ -1299,7 +1299,7 @@ local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on presentation.pdf (31 pages, 2911160 bytes).
+Output written on presentation.pdf (31 pages, 2916039 bytes).
 PDF statistics:
  1339 PDF objects out of 1440 (max. 8388607)
  1233 compressed objects within 13 object streams
