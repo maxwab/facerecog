@@ -140,8 +140,7 @@
 \item PHD work of John Wright. Work on Face and object recognition. Student Member of IEEE. 16405 citations since 2012. Now work for Columbia University
 \item Published in : IEEE transactions on pattern analysis and machine intelligence (TPMAI) in 2009 (a reference specialised in computer vision and patter analysis/recognition)
 -\item Article cited by 6386 since 2009
--\item IEEE stand for Institute of Electrical and Electronics Engineers : almost a monopoly in the area. They organise enowned conferences.  
--\item J.Wright worked under the supervision of notably Yi Ma (a reference in Computer Vision)
+-\item IEEE stand for Institute of Electrical and Electronics Engineers : almost a monopoly in the area. 
 \end{itemize}
 
 
@@ -246,11 +245,6 @@ Since the membership i of a test sample is unknown we define a new matrix A as t
 
 $$A=\lbrack A_{1},A_{2},...,A_{k} \rbrack $$
 
-Such that the linear representation of $y$ can be written :
-
-$$y=Ax_{0}  \in \mathbb{R}^{m} $$
-where 
-$$x_{0}=\lbrack 0,....,0,\alpha_{i,1},\alpha_{i,2},...,\alpha_{i,n_{i}},0,...,0  \rbrack \in \mathbb{R}^{m}$$
 
 
 		\end{frame}
@@ -263,11 +257,13 @@ $$x_{0}=\lbrack 0,....,0,\alpha_{i,1},\alpha_{i,2},...,\alpha_{i,n_{i}},0,...,0 
 			
 			\begin{figure}[!ht]
 			\begin{center}
-			\includegraphics[scale=0.5]{sparse.png}
+			\includegraphics[scale=0.4]{sparse.png}
 			\end{center}
 			\caption{Sparse Linear Representation}
 			\label{ma}
 			\end{figure}
+			
+$y=Ax_{0}  \in \mathbb{R}^{m} $ where  $x_{0}=\lbrack 0,....,0,\alpha_{i,1},\alpha_{i,2},...,\alpha_{i,n_{i}},0,...,0  \rbrack \in \mathbb{R}^{m}$
 
 \end{frame}
 
@@ -291,39 +287,25 @@ $$x_{0}=\lbrack 0,....,0,\alpha_{i,1},\alpha_{i,2},...,\alpha_{i,n_{i}},0,...,0 
 \end{itemize}
 
 \end{frame}
-%------------------------------------------------
-		
-\begin{frame}
-
-		\frametitle{Sparse solution via  $L^{1}$ minimization}		
-			
-\begin{itemize}
-\item Some results in the theory of sparse representation show that if the solution \textbf{$x_{0}$ is sparse enough} the solution to the problem above is equal to the solution of the $L^{1 }$ minimization problem :
-	$$ \hat{x_{1}}= \argmin \|x\|_{1}  \mbox{ subject to } Ax=y$$
-	
-\item This problem can be solved in \textbf{polynomial time} by standard linear programming method
-
-\end{itemize}
-
-\end{frame}
-
 
 
 %------------------------------------------------
 		
 \begin{frame}
 
-		\frametitle{The main result}		
+		\frametitle{The main result : recover via $L^{1}$}		
 			
 \begin{block}{Sparse solution for $L^{0}$ minimization via $L^{1}$}
 
 As long as the number of nonzero entries of $x_{0}$ is a small fraction of the dimension m, $L^{1}$ minimization will recover $x_{0}$ 
 
+$$ \hat{x_{1}}= \argmin \|x\|_{1}  \mbox{ subject to } Ax=y$$
+
 \end{block}
 
 			\begin{figure}[!ht]
 			\begin{center}
-			\includegraphics[scale=0.45]{sparse_sol.png}
+			\includegraphics[scale=0.3]{sparse_rep.png}
 			\end{center}
 			\caption{Sparse solution}
 			\label{fa}
@@ -446,19 +428,7 @@ $$ \hat{x_{1}}= \argmin \|x\|_{1}  \mbox{ subject to } \|Ax-y\|_{2} \leq \epsilo
 \end{itemize}
 \end{frame}
 
-%---------------
 
-\begin{frame}
-\frametitle{Face recognition : our example}
-
-			\begin{figure}[!ht]
-			\begin{center}
-			\includegraphics[scale=0.4]{noisy_face.png}
-			\end{center}
-			\caption{Noisy image}
-			\label{fa}
-			\end{figure}
-\end{frame}
 
 %---------------
 
@@ -499,24 +469,15 @@ $$ \hat{x_{1}}= \argmin \|x\|_{1}  \mbox{ subject to } \|Ax-y\|_{2} \leq \epsilo
 
 
 \begin{frame}
+\frametitle{Face recognition : our example}
 
-		\frametitle{Algorithm 4: SRC with occlusion}		
-
-\begin{itemize}
-
-\item Some corrupted pixels (in a small portion of the image)
-\item The problem becomes $y=y_{o}+e_{0}$ where $e_{0} \in \mathbb{R}^{m}$ is a vector of errors (a fraction $\rho$ of its entries are nonzero where pixels are corrupted). 
-\item So we can rewrite the roblem as : $$y = \lbrack A,I \rbrack 
-\begin{bmatrix}
-           x_{0} \\
-           e_{0} 
-\end{bmatrix}=Bw_{0}$$
-
-\item If the occlusion e covers less than 50 \% of the image the sparsest solution to $y=Bw$ is the true generator $w_{0}=\lbrack x_{0},e_{0} \rbrack $
-
-
-\end{itemize}
-
+			\begin{figure}[!ht]
+			\begin{center}
+			\includegraphics[scale=0.4]{occluded_face.png}
+			\end{center}
+			\caption{Occluded image}
+			\label{fa}
+			\end{figure}
 \end{frame}
 
 %---------------
@@ -526,9 +487,9 @@ $$ \hat{x_{1}}= \argmin \|x\|_{1}  \mbox{ subject to } \|Ax-y\|_{2} \leq \epsilo
 
 			\begin{figure}[!ht]
 			\begin{center}
-			\includegraphics[scale=0.4]{occluded_face.png}
+			\includegraphics[scale=0.4]{noisy_face.png}
 			\end{center}
-			\caption{Occluded image}
+			\caption{Noisy image}
 			\label{fa}
 			\end{figure}
 \end{frame}
@@ -594,7 +555,23 @@ $$ \hat{x_{1}}= \argmin \|x\|_{1}  \mbox{ subject to } \|Ax-y\|_{2} \leq \epsilo
 %------------------------------------------------
 
 
+%------------------------------------------------
+\section{Conclusion}
 
+
+\begin{frame}
+
+		\frametitle{Conclusion}
+		
+		\begin{itemize}
+		\item The algorithm worked very well but the database is very clean high preprocessing of images
+		\item SVM quite as good and sparse as well but less interpretability
+		\item Article's database just 100 people
+		\item Was state of the art in 2009 and now CNN : does it better work ?	
+		\end{itemize}
+		
+		
+\end{frame}
 
 %------------------------------------------------
 

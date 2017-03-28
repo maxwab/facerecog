@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.6)  27 MAR 2017 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.6)  28 MAR 2017 09:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1030,40 +1030,44 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] (./presentation.toc)
 [6
 
-] <face_recog.png, id=333, 244.915pt x 165.61874pt>
+] <face_recog.png, id=348, 244.915pt x 165.61874pt>
 File: face_recog.png Graphic file (type png)
  <use face_recog.png>
-Package pdftex.def Info: face_recog.png used on input line 192.
+Package pdftex.def Info: face_recog.png used on input line 191.
 (pdftex.def)             Requested size: 171.43932pt x 115.93231pt.
 
 [7
 
- <./face_recog.png>] <original.png, id=371, 274.02374pt x 310.15875pt>
+ <./face_recog.png>] <original.png, id=388, 274.02374pt x 310.15875pt>
 File: original.png Graphic file (type png)
 
 <use original.png>
-Package pdftex.def Info: original.png used on input line 204.
+Package pdftex.def Info: original.png used on input line 203.
 (pdftex.def)             Requested size: 137.01154pt x 155.079pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 \end{frame}
-                  [8
+l.203 \end{frame}
+                 
+Overfull \vbox (0.44753pt too high) detected at line 203
+ []
+
+[8
 
  <./original.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 221.
+LaTeX Font Info:    Try loading font information for U+msa on input line 220.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 221.
+LaTeX Font Info:    Try loading font information for U+msb on input line 220.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 221.
+line 220.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1074,79 +1078,84 @@ thkerncmss.
 
 ] [11
 
-] <sparse.png, id=513, 490.83376pt x 279.0425pt>
+] <sparse.png, id=533, 490.83376pt x 279.0425pt>
 File: sparse.png Graphic file (type png)
 
 <use sparse.png>
-Package pdftex.def Info: sparse.png used on input line 272.
-(pdftex.def)             Requested size: 245.41628pt x 139.5209pt.
+Package pdftex.def Info: sparse.png used on input line 268.
+(pdftex.def)             Requested size: 196.33002pt x 111.615pt.
  [12
 
  <./sparse.png>] [13
 
-] [14
-
 ]
-<sparse_sol.png, id=622, 638.385pt x 221.32687pt>
-File: sparse_sol.png Graphic file (type png)
- <use sparse_sol.png>
-Package pdftex.def Info: sparse_sol.png used on input line 332.
-(pdftex.def)             Requested size: 287.27058pt x 99.59616pt.
+<sparse_rep.png, id=611, 604.2575pt x 306.14375pt>
+File: sparse_rep.png Graphic file (type png)
+ <use sparse_rep.png>
+Package pdftex.def Info: sparse_rep.png used on input line 314.
+(pdftex.def)             Requested size: 181.27864pt x 91.84383pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.332 \end{frame}
-                  [15
+l.314 \end{frame}
+                 
+Overfull \vbox (21.73685pt too high) detected at line 314
+ []
 
- <./sparse_sol.png>]
-<sparsity.png, id=655, 566.115pt x 390.45876pt>
+[14
+
+ <./sparse_rep.png>] <sparsity.png, id=645, 566.115pt x 390.45876pt>
 File: sparsity.png Graphic file (type png)
- <use sparsity.png>
-Package pdftex.def Info: sparsity.png used on input line 346.
+
+<use sparsity.png>
+Package pdftex.def Info: sparsity.png used on input line 328.
 (pdftex.def)             Requested size: 283.05681pt x 195.2289pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.346 \end{frame}
+l.328 \end{frame}
                  
-Overfull \vbox (34.09746pt too high) detected at line 346
+Overfull \vbox (40.59743pt too high) detected at line 328
  []
 
-[16
+[15
 
- <./sparsity.png>] (./presentation.toc) [17
+ <./sparsity.png>] (./presentation.toc) [16
 
-] [18
-
-] [19
+] [17
 
 ]
-<SCI.png, id=810, 556.0775pt x 390.45876pt>
+Overfull \vbox (2.98627pt too high) detected at line 381
+ []
+
+[18
+
+] <SCI.png, id=803, 556.0775pt x 390.45876pt>
 File: SCI.png Graphic file (type png)
  <use SCI.png>
-Package pdftex.def Info: SCI.png used on input line 413.
+Package pdftex.def Info: SCI.png used on input line 395.
 (pdftex.def)             Requested size: 278.03807pt x 195.2289pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.413 \end{frame}
+l.395 \end{frame}
                  
-Overfull \vbox (34.09746pt too high) detected at line 413
+Overfull \vbox (40.59743pt too high) detected at line 395
  []
 
-[20
+[19
 
- <./SCI.png>] <recomposition.png, id=845, 820.06375pt x 330.23375pt>
+ <./SCI.png>] <recomposition.png, id=841, 820.06375pt x 330.23375pt>
 File: recomposition.png Graphic file (type png)
 
 <use recomposition.png>
-Package pdftex.def Info: recomposition.png used on input line 428.
+Package pdftex.def Info: recomposition.png used on input line 410.
 (pdftex.def)             Requested size: 328.01968pt x 132.09114pt.
 
-Overfull \hbox (20.72981pt too wide) in paragraph at lines 428--428
+Overfull \hbox (20.72981pt too wide) in paragraph at lines 410--410
  [] 
  []
 
@@ -1154,94 +1163,95 @@ pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.428 \end{frame}
-                  [21
+l.410 \end{frame}
+                  [20
 
- <./recomposition.png>] [22
+ <./recomposition.png>] [21
 
-]
-<noisy_face.png, id=915, 314.17375pt x 354.32375pt>
-File: noisy_face.png Graphic file (type png)
- <use noisy_face.png>
-Package pdftex.def Info: noisy_face.png used on input line 461.
-(pdftex.def)             Requested size: 125.66727pt x 141.72697pt.
-pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
- already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.461 \end{frame}
-                  [23
-
- <./noisy_face.png>] [24
+] [22
 
 ]
-<feature_reduc.png, id=985, 1421.31pt x 385.44pt>
+<feature_reduc.png, id=948, 1421.31pt x 385.44pt>
 File: feature_reduc.png Graphic file (type png)
  <use feature_reduc.png>
-Package pdftex.def Info: feature_reduc.png used on input line 494.
+Package pdftex.def Info: feature_reduc.png used on input line 464.
 (pdftex.def)             Requested size: 284.25696pt x 77.08662pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.494 \end{frame}
-                  [25
+l.464 \end{frame}
+                  [23
 
- <./feature_reduc.png>] [26
-
-]
-<occluded_face.png, id=1055, 316.18124pt x 358.33875pt>
+ <./feature_reduc.png>]
+<occluded_face.png, id=984, 316.18124pt x 358.33875pt>
 File: occluded_face.png Graphic file (type png)
-
-<use occluded_face.png>
-Package pdftex.def Info: occluded_face.png used on input line 534.
+ <use occluded_face.png>
+Package pdftex.def Info: occluded_face.png used on input line 481.
 (pdftex.def)             Requested size: 126.47025pt x 143.33296pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.534 \end{frame}
-                  [27
+l.481 \end{frame}
+                  [24
 
- <./occluded_face.png>] (./presentation.toc) [28
+ <./occluded_face.png>]
+<noisy_face.png, id=1021, 314.17375pt x 354.32375pt>
+File: noisy_face.png Graphic file (type png)
+ <use noisy_face.png>
+Package pdftex.def Info: noisy_face.png used on input line 495.
+(pdftex.def)             Requested size: 125.66727pt x 141.72697pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
+ already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.495 \end{frame}
+                  [25
 
-] [29
+ <./noisy_face.png>] (./presentation.toc) [26
+
+] [27
 
 ]
-<perf1.png, id=1164, 1148.29pt x 782.925pt>
+<perf1.png, id=1136, 1148.29pt x 782.925pt>
 File: perf1.png Graphic file (type png)
  <use perf1.png>
-Package pdftex.def Info: perf1.png used on input line 574.
+Package pdftex.def Info: perf1.png used on input line 535.
 (pdftex.def)             Requested size: 287.0718pt x 195.73077pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.574 \end{frame}
+l.535 \end{frame}
                  
-Overfull \vbox (34.59933pt too high) detected at line 574
+Overfull \vbox (41.0993pt too high) detected at line 535
  []
 
-[30
+[28
 
- <./perf1.png>] <perf2.png, id=1195, 1186.4325pt x 782.925pt>
+ <./perf1.png>] <perf2.png, id=1168, 1186.4325pt x 782.925pt>
 File: perf2.png Graphic file (type png)
 
 <use perf2.png>
-Package pdftex.def Info: perf2.png used on input line 593.
+Package pdftex.def Info: perf2.png used on input line 554.
 (pdftex.def)             Requested size: 296.60739pt x 195.73077pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fa}) has been
  already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.593 \end{frame}
+l.554 \end{frame}
                  
-Overfull \vbox (34.59933pt too high) detected at line 593
+Overfull \vbox (41.0993pt too high) detected at line 554
  []
 
-[31
+[29
 
- <./perf2.png>]
+ <./perf2.png>] (./presentation.toc) [30
+
+] [31
+
+]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -1251,13 +1261,13 @@ Overfull \vbox (34.59933pt too high) detected at line 593
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 602.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 579.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 579.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 602.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 579.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 579.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 7D3E7F82E2850FDA226E9111447E02DE;915.
+(rerunfilecheck)             Checksum: 704362D7326A1AE1B024A41722FD9542;961.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1266,13 +1276,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 579.
  ) 
 Here is how much of TeX's memory you used:
- 17271 strings out of 493089
- 333762 string characters out of 6134843
+ 17278 strings out of 493089
+ 333843 string characters out of 6134843
  402174 words of memory out of 5000000
- 20245 multiletter control sequences out of 15000+600000
+ 20249 multiletter control sequences out of 15000+600000
  15828 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,68p,392b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1289,10 +1299,10 @@ local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
 local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on presentation.pdf (31 pages, 2920599 bytes).
+Output written on presentation.pdf (31 pages, 2911160 bytes).
 PDF statistics:
- 1289 PDF objects out of 1440 (max. 8388607)
- 1185 compressed objects within 12 object streams
- 78 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1339 PDF objects out of 1440 (max. 8388607)
+ 1233 compressed objects within 13 object streams
+ 79 named destinations out of 1000 (max. 500000)
+ 287 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -6,9 +6,10 @@
 \beamer@subsectionintoc {2}{1}{Face recognition}{7}{0}{2}
 \beamer@subsectionintoc {2}{2}{Sparse representation}{9}{0}{2}
 \beamer@subsectionintoc {2}{3}{Mathematical related problem}{10}{0}{2}
-\beamer@sectionintoc {3}{Classification via Sparse representation}{17}{0}{3}
-\beamer@subsectionintoc {3}{1}{Initial problem}{18}{0}{3}
-\beamer@subsectionintoc {3}{2}{Extended problem with noise}{22}{0}{3}
-\beamer@subsectionintoc {3}{3}{Extended problem with feature extraction}{24}{0}{3}
-\beamer@subsectionintoc {3}{4}{Extended problem with occlusion}{26}{0}{3}
-\beamer@sectionintoc {4}{Implementation}{28}{0}{4}
+\beamer@sectionintoc {3}{Classification via Sparse representation}{16}{0}{3}
+\beamer@subsectionintoc {3}{1}{Initial problem}{17}{0}{3}
+\beamer@subsectionintoc {3}{2}{Extended problem with noise}{21}{0}{3}
+\beamer@subsectionintoc {3}{3}{Extended problem with feature extraction}{22}{0}{3}
+\beamer@subsectionintoc {3}{4}{Extended problem with occlusion}{24}{0}{3}
+\beamer@sectionintoc {4}{Implementation}{26}{0}{4}
+\beamer@sectionintoc {5}{Conclusion}{30}{0}{5}
